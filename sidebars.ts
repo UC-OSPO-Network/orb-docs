@@ -14,38 +14,15 @@ const sidebars: SidebarsConfig = {
   // Main documentation sidebar
   tutorialSidebar: [
     'intro',
-    'architecture',
     'getting-started',
-    {
-      type: 'category',
-      label: 'Project Structure',
-      items: [
-        'project-structure/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Development',
-      items: [
-        'development/setup',
-      ],
-    },
+    'architecture',
+    'project-structure',
+    'frontend-components',
+    'state-management',
+    'api',
+    'data-model',
     'contributing',
     'troubleshooting',
-  ],
-
-  // API Reference sidebar
-  apiSidebar: [
-    'api/overview',
-    'api/repositories',
-  ],
-
-  // Components sidebar
-  componentsSidebar: [
-    'components/overview',
-    'components/repository-components',
-    'components/ui-components',
-    'components/state-management',
   ],
 };
 

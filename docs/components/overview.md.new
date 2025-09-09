@@ -1,0 +1,13 @@
+---
+sidebar_position: 1
+---
+
+# Components
+
+The main components in the frontend:
+
+- RepositoryCard: Shows a repository preview
+- RepositoryPage: Shows detailed repository information
+- RepositoriesPageClient: Main repository listing page
+- Navbar: Top navigation bar
+- SearchBar: Search input for repositories

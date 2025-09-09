@@ -4,50 +4,13 @@ sidebar_position: 3
 
 # UI Components
 
-UC ORB Showcase uses a comprehensive UI component library built on top of Shadcn/ui and Radix UI primitives. This section covers the core UI components and their usage patterns.
+Basic UI components used throughout the application:
 
-## Component Library Overview
-
-The UI components are organized in the `components/ui/` directory and provide:
-
-- **Consistent Design**: Unified styling with Tailwind CSS
-- **Accessibility**: Built on Radix UI primitives for full accessibility
-- **Type Safety**: Complete TypeScript support
-- **Customization**: Easy theming and style customization
-
-## Core UI Components
-
-### Button
-
-Versatile button component with multiple variants and sizes.
-
-```typescript
-import { Button } from "@/components/ui/button";
-
-// Basic usage
-<Button>Click me</Button>
-
-// With variants
-<Button variant="outline">Outline Button</Button>
-<Button variant="ghost">Ghost Button</Button>
-<Button variant="destructive">Delete</Button>
-
-// With sizes
-<Button size="sm">Small</Button>
-<Button size="lg">Large</Button>
-<Button size="icon">🔍</Button>
-
-// As child component
-<Button asChild>
-  <Link href="/repositories">Browse Repositories</Link>
-</Button>
-```
-
-**Variants:**
-- `default`: Primary blue button
-- `destructive`: Red button for dangerous actions
-- `outline`: Outlined button
-- `secondary`: Secondary gray button
+- Button
+- Card
+- Input
+- Badge
+- Skeleton
 - `ghost`: Transparent button
 - `link`: Link-styled button
 

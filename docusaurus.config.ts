@@ -98,18 +98,6 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'apiSidebar',
-          position: 'left',
-          label: 'API Reference',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'componentsSidebar',
-          position: 'left',
-          label: 'Components',
-        },
-        {
           href: 'https://github.com/UC-OSPO-Network/orb-showcase',
           label: 'GitHub',
           position: 'right',
@@ -124,7 +112,7 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/intro',
+              to: '/docs/getting-started',
             },
             {
               label: 'Architecture',
@@ -132,11 +120,11 @@ const config: Config = {
             },
             {
               label: 'API Reference',
-              to: '/docs/api/overview',
+              to: '/docs/api',
             },
             {
               label: 'Components',
-              to: '/docs/components/overview',
+              to: '/docs/frontend-components',
             },
           ],
         },

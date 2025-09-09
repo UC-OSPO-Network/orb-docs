@@ -4,49 +4,10 @@ sidebar_position: 2
 
 # Repository Components
 
-This section covers all the repository-related components that make up the core functionality of UC ORB Showcase.
-
-## RepositoryCard
-
-The `RepositoryCard` component displays individual repository information in a card format.
-
-### Props Interface
-```typescript
-interface RepositoryCardProps {
-  repo: Repository;
-}
-```
-
-### Features
-- **Visual Design**: Modern card with hover effects and gradients
-- **Repository Stats**: Stars, forks, and organization indicators
-- **Language Badges**: Color-coded programming language tags
-- **University Display**: Shows associated UC campus
-- **Responsive Layout**: Adapts to different screen sizes
-
-### Usage
-```typescript
-import { RepositoryCard } from '@/components/RepositoryCard';
-
-function RepositoryList({ repositories }: { repositories: Repository[] }) {
-  return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {repositories.map(repo => (
-        <RepositoryCard key={repo.full_name} repo={repo} />
-      ))}
-    </div>
-  );
-}
-```
-
-### Styling
-- **Card Effects**: `shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02]`
-- **Language Colors**: Predefined color mapping for popular languages
-- **Organization Icons**: Different icons for organizations vs individual users
-
-## RepositoryGrid
-
-Container component that arranges repository cards in a responsive grid layout.
+- RepositoryCard: Card showing repository preview
+- RepositoryPage: Full repository detail view
+- RepositoryFilters: Filter controls
+- RepositoryGrid: Grid layout for repository cards
 
 ### Props Interface
 ```typescript
