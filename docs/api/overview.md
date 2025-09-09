@@ -4,10 +4,11 @@ sidebar_position: 1
 
 # API Overview
 
-Endpoints:
-- /repositories
-- /repositories/{owner}/{repo}
-- /universities
-- /languages
+Available endpoints:
+- GET /repositories - List repositories with filtering
+- GET /universities - List available universities  
+- GET /languages - List available programming languages
+- GET /licenses - List available licenses
+- GET /topics - List available topic areas
 
-All endpoints are GET and return JSON.
+All endpoints return JSON and only show approved repositories.
